@@ -6,7 +6,7 @@ pipeline {
     }
 
     options {
-        timeout(time: 10, unit: 'MINUTES')  // discard the build after 10 minutes of running
+        timeout(time: 15, unit: 'MINUTES')  // discard the build after 10 minutes of running
         timestamps()  // display timestamp in console output
     }
 
